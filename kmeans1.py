@@ -89,8 +89,6 @@ def k_means(filename):
     k_means_img.save(filename)
 
 
-# URL = 'https://i.pinimg.com/originals/95/2a/04/952a04ea85a8d1b0134516c52198745e.jpg'
-# f = io.BytesIO(urllib.request.urlopen(URL).read())  # Download the picture at the url as a file object
 image_name = 'my_image'
 image_type = 'png'
 img = Image.open('%s.%s' % (image_name, image_type))
